@@ -48,7 +48,7 @@ export default function LoginForm({ callbackUrl = '/dashboard' }: { callbackUrl?
 
             <div className="space-y-6">
                 <div className="mb-6">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-800 mb-2">
                         Email address
                     </label>
                     <input
@@ -59,7 +59,7 @@ export default function LoginForm({ callbackUrl = '/dashboard' }: { callbackUrl?
                         required
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md"
+                        className="mt-1 block w-full px-3 py-3 border border-gray-800 rounded-md text-gray-800"
                     />
                 </div>
 
@@ -75,7 +75,7 @@ export default function LoginForm({ callbackUrl = '/dashboard' }: { callbackUrl?
                         required
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md"
+                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md text-gray-800"
                     />
                 </div>
 

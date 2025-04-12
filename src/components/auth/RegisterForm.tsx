@@ -73,7 +73,7 @@ export default function RegisterForm({ callbackUrl = '/dashboard' }: { callbackU
                         required
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md"
+                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md text-gray-800"
                     />
                 </div>
 
@@ -89,7 +89,7 @@ export default function RegisterForm({ callbackUrl = '/dashboard' }: { callbackU
                         required
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md"
+                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md text-gray-800"
                     />
                 </div>
 
@@ -105,7 +105,7 @@ export default function RegisterForm({ callbackUrl = '/dashboard' }: { callbackU
                         required
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md"
+                        className="mt-1 block w-full px-3 py-3 border border-gray-300 rounded-md text-gray-800"
                     />
                 </div>
 

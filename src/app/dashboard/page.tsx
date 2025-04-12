@@ -93,7 +93,7 @@ export default function WebScraper() {
           value={url}
           onChange={(e: ChangeEvent<HTMLInputElement>) => setUrl(e.target.value)}
           placeholder="Enter website URL (e.g., https://example.com)"
-          className="flex-1 p-2 border rounded bg-gray-50 border-gray-500"
+          className="flex-1 p-2 border rounded bg-gray-50 border-gray-500 text-gray-800"
         />
         <button
           onClick={fetchWebsite}
