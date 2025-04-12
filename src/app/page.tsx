@@ -14,6 +14,8 @@ export default async function HomePage() {
         redirect('/dashboard')
     }
 
+    redirect('/auth/login')
+
     return (
         <div className="flex flex-col min-h-screen">
             <main className="flex-grow bg-gray-50">
