@@ -23,7 +23,7 @@ export default function UserMenu() {
         <div className="relative" ref={menuRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-gray-500"
                 aria-expanded={isOpen}
             >
                 <span className="sr-only">Open user menu</span>
@@ -42,7 +42,7 @@ export default function UserMenu() {
                         </span>
                     )}
                 </div>
-                <span className="ml-2 hidden md:block text-gray-400">{displayName}</span>
+                <span className="ml-2 hidden md:block text-gray-700">{displayName}</span>
                 <svg className="ml-1 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
