@@ -98,7 +98,7 @@ export default function WebScraper() {
         <button
           onClick={fetchWebsite}
           disabled={loading}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:bg-blue-300"
+          className="px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-700 disabled:bg-blue-300"
         >
           {loading ? 'Loading...' : 'Fetch Website'}
         </button>

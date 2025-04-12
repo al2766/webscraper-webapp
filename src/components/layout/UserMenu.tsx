@@ -37,7 +37,7 @@ export default function UserMenu() {
                             className="h-8 w-8 rounded-full"
                         />
                     ) : (
-                        <span className="text-sm font-medium text-gray-400">
+                        <span className="text-sm font-medium text-gray-700">
                             {displayName.charAt(0).toUpperCase()}
                         </span>
                     )}
